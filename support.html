@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>寶寶節拍 BabyBeat 支援</title>
+<style>
+  :root {
+    --primary: #14998C;
+    --accent: #E8984A;
+    --dark: #16211E;
+    --background: #F3F2EE;
+    --card: #FFFFFF;
+    --secondary-text: #63706B;
+    --border: #DEE2DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--dark);
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    line-height: 1.75;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--secondary-text); font-size: 0.95rem; margin-bottom: 32px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 32px;
+  }
+  .contact-card a { color: var(--primary); font-weight: 700; text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+  }
+  .faq-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .faq-q { font-weight: 700; margin-bottom: 6px; }
+  .faq-q::before { content: "Q. "; color: var(--primary); }
+  .faq-a { color: var(--dark); font-size: 0.95rem; }
+  .faq-a::before { content: "A. "; color: var(--secondary-text); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  th { background: #E7EBE8; color: var(--dark); font-weight: 700; }
+  tr:last-child td { border-bottom: none; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--secondary-text);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--primary); }
+</style>
+</head>
+<body>
+<main>
+  <h1>寶寶節拍 BabyBeat 支援</h1>
+  <p class="subtitle">使用上遇到問題嗎？這裡整理了常見問題與聯絡方式。</p>
+
+  <div class="contact-card">
+    <strong>聯絡我們</strong><br />
+    有任何使用上的問題、意見回饋，或是需要協助處理帳號／家庭相關事宜，歡迎寫信給我們：<br />
+    <a href="mailto:stu24801@gmail.com">stu24801@gmail.com</a><br />
+    我們會盡快回覆。
+  </div>
+
+  <h2>常見問題</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">忘記家庭的邀請碼怎麼辦？</div>
+    <div class="faq-a">打開 App，進到「家庭」畫面，邀請碼一直都顯示在那裡，可以直接複製或用 LINE／訊息分享連結給家人，不用另外去找。如果你本來就不是這個家庭的成員、也聯絡不到建立家庭的人，目前沒有辦法用邀請碼以外的方式加入，請直接聯絡我們協助處理。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Siri 語音記錄聽錯了，或托嬰聯絡簿照片辨識錯了怎麼辦？</div>
+    <div class="faq-a">不管是 Siri「記一下」的自由文字，還是拍聯絡簿照片辨識，AI 整理完之後都會先顯示「確認記錄」畫面讓你看過，每一筆的時間、類型、數值都可以在存入之前直接修改或刪除，不用重講一次或重拍一次。如果是已經存入之後才發現記錯了，可以到首頁或報表的時間軸，點那一筆記錄進去編輯。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">托嬰聯絡簿照片辨識會不會把其他小孩的資料也送出去？</div>
+    <div class="faq-a">我們的系統會請 AI 只抽取你指定的寶寶姓名底下的記錄，但無法保證 AI 完全不會讀取到照片上出現的其他資訊。建議拍照時盡量只拍到自己小孩的那一區段，避免拍到其他小孩的姓名或記錄。詳細的資料處理方式請參考<a href="./index.html">隱私權政策</a>第二節。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">每月免費的 AI 記錄額度用完了，還能繼續用嗎？</div>
+    <div class="faq-a">可以。免費額度用完後，系統會改用家庭共用的額度池（在「家庭」畫面可以看到餘額、之後能儲值）。如果完全不想花錢，也可以隨時切換成手動輸入，不經過 AI、完全不收費，不受免費額度影響。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">家庭裡的「擁有者」「照顧者」「檢視者」差在哪？</div>
+    <div class="faq-a">擁有者可以管理成員與寶寶資料、使用家庭額度；照顧者（例如爸媽、阿嬤）可以新增/修改記錄、使用家庭額度，但不能管理成員；檢視者（例如遠方的親友）只能看紀錄，不能新增或修改。</div>
+  </div>
+
+  <h2>App 版本資訊</h2>
+  <table>
+    <tr><th>項目</th><th>內容</th></tr>
+    <tr><td>App 名稱</td><td>寶寶節拍 BabyBeat</td></tr>
+    <tr><td>平台</td><td>iOS</td></tr>
+  </table>
+
+  <footer>
+    想了解我們怎麼處理你和寶寶的資料，請參考<a href="./index.html">隱私權政策</a>。
+  </footer>
+</main>
+</body>
+</html>
