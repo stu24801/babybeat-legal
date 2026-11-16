@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Soporte de BabyBeat</title>
+<style>
+  :root {
+    --primary: #14998C;
+    --accent: #E8984A;
+    --dark: #16211E;
+    --background: #F3F2EE;
+    --card: #FFFFFF;
+    --secondary-text: #63706B;
+    --border: #DEE2DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--dark);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.75;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--secondary-text); font-size: 0.95rem; margin-bottom: 32px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 32px;
+  }
+  .contact-card a { color: var(--primary); font-weight: 700; text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+  }
+  .faq-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .faq-q { font-weight: 700; margin-bottom: 6px; }
+  .faq-q::before { content: "Q. "; color: var(--primary); }
+  .faq-a { color: var(--dark); font-size: 0.95rem; }
+  .faq-a::before { content: "A. "; color: var(--secondary-text); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  th { background: #E7EBE8; color: var(--dark); font-weight: 700; }
+  tr:last-child td { border-bottom: none; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--secondary-text);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--primary); }
+  .langs { font-size: 0.85rem; color: var(--secondary-text); margin-bottom: 20px; }
+  .langs a { font-weight: 400; margin-right: 10px; }
+  .langs strong { margin-right: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="langs"><a href="../support.html">繁體中文</a> <a href="../en/support.html">English</a> <a href="../ja/support.html">日本語</a> <a href="../ko/support.html">한국어</a> <strong>Español</strong></nav>
+  <h1>Soporte de BabyBeat</h1>
+  <p class="subtitle">¿Tienes algún problema? Aquí tienes las preguntas frecuentes y cómo contactarnos.</p>
+
+  <div class="contact-card">
+    <strong>Contáctanos</strong><br />
+    Para preguntas, comentarios o ayuda con tu cuenta o familia, escríbenos a:<br />
+    <a href="mailto:stu24801@gmail.com">stu24801@gmail.com</a><br />
+    Te responderemos lo antes posible.
+  </div>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">No encuentro el código de invitación de la familia.</div>
+    <div class="faq-a">Abre la app y ve a la pestaña Familia: el código siempre aparece ahí, y puedes copiarlo o compartir el enlace de invitación. Si aún no eres miembro y no puedes contactar con quien creó la familia, no hay otra forma de unirse, así que escríbenos.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Siri o el escaneo de la agenda se equivocaron.</div>
+    <div class="faq-a">Después de que la IA procese un “anota” de Siri o una foto de la agenda, siempre verás primero la pantalla “Confirmar registros”, donde puedes corregir o borrar la hora, el tipo y la cantidad de cada registro antes de guardarlo, sin repetirlo ni volver a tomar la foto. Si notas un error después de guardar, toca el registro en la cronología de Hoy o Informes para editarlo.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">¿El escaneo de la agenda envía datos de otros niños?</div>
+    <div class="faq-a">No. Las fotos se reconocen solo en tu iPhone y nunca se suben a nuestros servidores ni a ningún proveedor de IA. Si aparecen registros de otros niños en el borrador, elimínalos en la pantalla de confirmación. Consulta la sección 2 de la <a href="./index.html">política de privacidad</a>.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">¿Las funciones de IA cuestan dinero? ¿Por qué descargar un modelo?</div>
+    <div class="faq-a">Son gratuitas. El registro por voz, el “anota” de Siri y el escaneo de la agenda usan un modelo de IA descargado en tu iPhone, así que nada va a la nube y no hay límite de uso. Descarga el modelo (unos 2,6 GB) en Ajustes antes del primer uso; se recomienda Wi-Fi. El registro manual y los comandos fijos de Siri (por ejemplo “BabyBeat, registra pipí”) no necesitan el modelo.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">¿Qué diferencia hay entre propietario, cuidador y lector?</div>
+    <div class="faq-a">El propietario puede invitar y quitar miembros y gestionar los perfiles de los bebés. Los cuidadores (por ejemplo padres o abuelos) pueden añadir y editar registros, pero no gestionar miembros. Los lectores (por ejemplo familiares lejanos) solo pueden ver los registros.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">¿Cómo salgo de una familia o elimino mi cuenta?</div>
+    <div class="faq-a">Para salir de una familia: “Salir de esta familia” al final de la pestaña Familia. Para eliminar tu cuenta: Ajustes → Cuenta → Eliminar cuenta. No se puede deshacer. Si eres propietario y quedan otros miembros, la propiedad pasa a uno de ellos y los registros se conservan; si eres el único miembro, se eliminan la familia y todos los registros.</div>
+  </div>
+
+  <h2>Información de la app</h2>
+  <table>
+    <tr><th>Elemento</th><th>Detalle</th></tr>
+    <tr><td>Nombre</td><td>BabyBeat</td></tr>
+    <tr><td>Plataforma</td><td>iOS</td></tr>
+    <tr><td>Idiomas</td><td>Chino tradicional, inglés, japonés, coreano, español</td></tr>
+  </table>
+
+  <footer>
+    Para saber cómo tratamos tus datos y los de tu bebé, consulta la <a href="./index.html">política de privacidad</a>.
+  </footer>
+</main>
+</body>
+</html>

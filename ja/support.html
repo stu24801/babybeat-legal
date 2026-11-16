@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BabyBeat サポート</title>
+<style>
+  :root {
+    --primary: #14998C;
+    --accent: #E8984A;
+    --dark: #16211E;
+    --background: #F3F2EE;
+    --card: #FFFFFF;
+    --secondary-text: #63706B;
+    --border: #DEE2DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--dark);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+    line-height: 1.75;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--secondary-text); font-size: 0.95rem; margin-bottom: 32px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 32px;
+  }
+  .contact-card a { color: var(--primary); font-weight: 700; text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+  }
+  .faq-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .faq-q { font-weight: 700; margin-bottom: 6px; }
+  .faq-q::before { content: "Q. "; color: var(--primary); }
+  .faq-a { color: var(--dark); font-size: 0.95rem; }
+  .faq-a::before { content: "A. "; color: var(--secondary-text); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  th { background: #E7EBE8; color: var(--dark); font-weight: 700; }
+  tr:last-child td { border-bottom: none; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--secondary-text);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--primary); }
+  .langs { font-size: 0.85rem; color: var(--secondary-text); margin-bottom: 20px; }
+  .langs a { font-weight: 400; margin-right: 10px; }
+  .langs strong { margin-right: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="langs"><a href="../support.html">繁體中文</a> <a href="../en/support.html">English</a> <strong>日本語</strong> <a href="../ko/support.html">한국어</a> <a href="../es/support.html">Español</a></nav>
+  <h1>BabyBeat サポート</h1>
+  <p class="subtitle">お困りですか？よくある質問とお問い合わせ先をまとめました。</p>
+
+  <div class="contact-card">
+    <strong>お問い合わせ</strong><br />
+    使い方のご質問、ご意見、アカウントや家族に関するご相談は、こちらまでメールでどうぞ：<br />
+    <a href="mailto:stu24801@gmail.com">stu24801@gmail.com</a><br />
+    できるだけ早くお返事します。
+  </div>
+
+  <h2>よくある質問</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">家族の招待コードがわかりません。</div>
+    <div class="faq-a">アプリの「家族」タブに招待コードが常に表示されています。コピーするか、招待リンクを LINE やメッセージで送ってください。まだメンバーでなく、家族を作った人にも連絡が取れない場合は、招待コード以外で参加する方法がないため、お問い合わせください。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Siri や連絡帳の読み取りが間違っていました。</div>
+    <div class="faq-a">Siri の「メモ」や連絡帳の写真を AI が整理したあとは、必ず「記録を確認」画面が表示され、保存前に各記録の時刻・種類・量を修正・削除できます。言い直したり撮り直したりする必要はありません。保存後に気づいた場合は、「今日」または「レポート」のタイムラインで記録をタップして編集できます。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">連絡帳の読み取りで、他の子のデータが送信されることはありますか？</div>
+    <div class="faq-a">ありません。写真は iPhone の中だけで読み取り、当方のサーバーや AI 事業者には送りません。下書きに他のお子さまの記載が入った場合は、確認画面で削除してください。詳しくは<a href="./index.html">プライバシーポリシー</a>第 2 項をご覧ください。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">AI 機能は有料ですか？なぜモデルをダウンロードするのですか？</div>
+    <div class="faq-a">無料です。音声記録、Siri の「メモ」、連絡帳の読み取りは iPhone にダウンロードした AI モデルで処理するため、クラウドを使わず、回数制限もありません。初回は「設定」で約 2.6 GB のモデルをダウンロードしてください（Wi-Fi 推奨）。手入力や Siri の定型コマンド（例：「BabyBeat、おしっこを記録」）にはモデルは不要です。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">オーナー・お世話する人・閲覧者の違いは？</div>
+    <div class="faq-a">オーナーはメンバーの招待・削除と赤ちゃん情報の管理ができます。お世話する人（パパ・ママ、祖父母など）は記録の追加・編集ができますが、メンバー管理はできません。閲覧者（遠方の親族など）は記録を見ることだけができます。</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">家族から退出する／アカウントを削除するには？</div>
+    <div class="faq-a">家族から退出：「家族」タブ一番下の「この家族から退出」。アカウント削除：「設定 → アカウント → アカウントを削除」。元に戻せません。オーナーで他のメンバーがいる場合は権限がそのうちの 1 人に移り記録は残ります。メンバーがあなただけの場合は、家族とすべての記録が削除されます。</div>
+  </div>
+
+  <h2>アプリ情報</h2>
+  <table>
+    <tr><th>項目</th><th>内容</th></tr>
+    <tr><td>アプリ名</td><td>BabyBeat</td></tr>
+    <tr><td>プラットフォーム</td><td>iOS</td></tr>
+    <tr><td>対応言語</td><td>繁体字中国語、英語、日本語、韓国語、スペイン語</td></tr>
+  </table>
+
+  <footer>
+    あなたと赤ちゃんのデータの扱いについては<a href="./index.html">プライバシーポリシー</a>をご覧ください。
+  </footer>
+</main>
+</body>
+</html>
