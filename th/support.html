@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ศูนย์ช่วยเหลือ BabyBeat</title>
+<style>
+  :root {
+    --primary: #14998C;
+    --accent: #E8984A;
+    --dark: #16211E;
+    --background: #F3F2EE;
+    --card: #FFFFFF;
+    --secondary-text: #63706B;
+    --border: #DEE2DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--dark);
+    font-family: -apple-system, BlinkMacSystemFont, "Thonburi", "Noto Sans Thai", "Leelawadee UI", sans-serif;
+    line-height: 1.75;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--secondary-text); font-size: 0.95rem; margin-bottom: 32px; }
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 32px;
+  }
+  .contact-card a { color: var(--primary); font-weight: 700; text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+  }
+  .faq-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .faq-q { font-weight: 700; margin-bottom: 6px; }
+  .faq-q::before { content: "Q. "; color: var(--primary); }
+  .faq-a { color: var(--dark); font-size: 0.95rem; }
+  .faq-a::before { content: "A. "; color: var(--secondary-text); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 16px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92rem;
+  }
+  th { background: #E7EBE8; color: var(--dark); font-weight: 700; }
+  tr:last-child td { border-bottom: none; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--secondary-text);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--primary); }
+  .langs { font-size: 0.85rem; color: var(--secondary-text); margin-bottom: 20px; }
+  .langs a { font-weight: 400; margin-right: 10px; }
+  .langs strong { margin-right: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="langs"><a href="../support.html">繁體中文</a> <a href="../en/support.html">English</a> <a href="../ja/support.html">日本語</a> <a href="../ko/support.html">한국어</a> <a href="../es/support.html">Español</a> <strong>ไทย</strong> <a href="../vi/support.html">Tiếng Việt</a> <a href="../id/support.html">Bahasa Indonesia</a></nav>
+  <h1>ศูนย์ช่วยเหลือ BabyBeat</h1>
+  <p class="subtitle">มีปัญหาหรือเปล่า? นี่คือคำถามที่พบบ่อยและช่องทางติดต่อ</p>
+
+  <div class="contact-card">
+    <strong>ติดต่อเรา</strong><br />
+    มีคำถาม ข้อเสนอแนะ หรือต้องการความช่วยเหลือเรื่องบัญชีหรือครอบครัว ส่งอีเมลมาที่:<br />
+    <a href="mailto:stu24801@gmail.com">stu24801@gmail.com</a><br />
+    เราจะตอบกลับโดยเร็วที่สุด
+  </div>
+
+  <h2>คำถามที่พบบ่อย</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">หารหัสเชิญของครอบครัวไม่เจอ</div>
+    <div class="faq-a">เปิดแอปแล้วไปที่แท็บครอบครัว รหัสเชิญแสดงอยู่ที่นั่นเสมอ คัดลอกหรือส่งลิงก์เชิญทาง LINE หรือข้อความได้ หากคุณยังไม่ใช่สมาชิกและติดต่อผู้สร้างครอบครัวไม่ได้ จะไม่มีทางอื่นในการเข้าร่วม โปรดติดต่อเรา</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Siri หรือการสแกนสมุดรายงานบันทึกผิด</div>
+    <div class="faq-a">หลัง AI จัดการ “จดหน่อย” ผ่าน Siri หรือรูปสมุดรายงาน จะมีหน้า “ยืนยันรายการ” ให้ตรวจก่อนเสมอ แก้หรือลบเวลา ประเภท และปริมาณของแต่ละรายการได้ก่อนบันทึก ไม่ต้องพูดใหม่หรือถ่ายใหม่ ถ้าพบข้อผิดพลาดหลังบันทึก แตะรายการในไทม์ไลน์ของแท็บวันนี้หรือรายงานเพื่อแก้ไข</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">การสแกนสมุดรายงานส่งข้อมูลของเด็กคนอื่นออกไปไหม?</div>
+    <div class="faq-a">ไม่ รูปอ่านใน iPhone เท่านั้น ไม่อัปโหลดไปยังเซิร์ฟเวอร์ของเราหรือผู้ให้บริการ AI ใดๆ ถ้าข้อมูลของเด็กคนอื่นปรากฏในร่าง โปรดลบในหน้ายืนยัน ดูรายละเอียดใน<a href="./index.html">นโยบายความเป็นส่วนตัว</a>ข้อ 2</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">ฟีเจอร์ AI เสียเงินไหม? ทำไมต้องดาวน์โหลดโมเดล?</div>
+    <div class="faq-a">ฟรี การบันทึกผ่าน Siri “จดหน่อย” และการสแกนสมุดรายงานใช้โมเดล AI ที่ดาวน์โหลดไว้ใน iPhone จึงไม่ผ่านคลาวด์และไม่จำกัดจำนวนครั้ง ดาวน์โหลดโมเดล (ประมาณ 2.6 GB) ในการตั้งค่าก่อนใช้ครั้งแรก แนะนำให้ใช้ Wi-Fi การกรอกเองและคำสั่ง Siri พื้นฐาน (เช่น “BabyBeat บันทึกฉี่”) ไม่ต้องใช้โมเดล</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">เจ้าของ ผู้ดูแล และผู้ดู ต่างกันอย่างไร?</div>
+    <div class="faq-a">เจ้าของเชิญและนำสมาชิกออก รวมถึงจัดการข้อมูลลูกได้ ผู้ดูแล (เช่น พ่อแม่ ปู่ย่าตายาย) เพิ่มและแก้บันทึกได้แต่จัดการสมาชิกไม่ได้ ผู้ดู (เช่น ญาติที่อยู่ไกล) ดูบันทึกได้อย่างเดียว</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">จะออกจากครอบครัวหรือลบบัญชีได้อย่างไร?</div>
+    <div class="faq-a">ออกจากครอบครัว: “ออกจากครอบครัวนี้” ด้านล่างสุดของแท็บครอบครัว ลบบัญชี: การตั้งค่า → บัญชี → ลบบัญชี ย้อนกลับไม่ได้ หากคุณเป็นเจ้าของและยังมีสมาชิกคนอื่น สิทธิ์จะส่งต่อให้หนึ่งในนั้นและบันทึกยังอยู่ หากเหลือคุณคนเดียว ครอบครัวและบันทึกทั้งหมดจะถูกลบ</div>
+  </div>
+
+  <h2>ข้อมูลแอป</h2>
+  <table>
+    <tr><th>รายการ</th><th>รายละเอียด</th></tr>
+    <tr><td>ชื่อแอป</td><td>BabyBeat</td></tr>
+    <tr><td>แพลตฟอร์ม</td><td>iOS</td></tr>
+    <tr><td>ภาษา</td><td>จีนตัวเต็ม อังกฤษ ญี่ปุ่น เกาหลี สเปน ไทย เวียดนาม อินโดนีเซีย</td></tr>
+  </table>
+
+  <footer>
+    ดูวิธีที่เราจัดการข้อมูลของคุณและลูกได้ใน<a href="./index.html">นโยบายความเป็นส่วนตัว</a>
+  </footer>
+</main>
+</body>
+</html>
